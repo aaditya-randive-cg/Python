@@ -83,11 +83,29 @@
 #print(sum)
 
 #question17
-number=int(input("Enter NUmber"))
-count=0
-for i in range(1,number+1):
-    if i%2==0:
-        count=count+1
-print(count)
+#number=int(input("Enter NUmber"))
+#count=0
+#for i in range(1,number+1):
+#    if i%2==0:
+#        count=count+1
+#print(count)
 
+#question18
+#number=int(input("Enter Number"))
+#sum=0
+#for i in range(1,number+1):
+#    if i%2!=0:
+#        sum=sum+1
+#    print(sum)
 
+#question19
+#number=int(input("Enter Number"))
+#for i in range(1,11):
+#    print(i*number)
+
+#question20
+#number=int(input("Enter Number"))
+#sum=1
+#for i in range(1,number+1):
+#    sum=i*1
+#print(i)

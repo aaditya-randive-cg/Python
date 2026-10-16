@@ -1,4 +1,4 @@
-#question1
+'''#question1
 i=1
 while i<=5:
     print("Hello")
@@ -43,7 +43,7 @@ while i <= 19:
 #question8
 i = 3
 while i <= 18:
-    print(i)
+    print(i, end="  ")
     i = i+3
 
 #question9
@@ -107,7 +107,8 @@ sum = 0
 i = 1
 while i <= number:
     sum = sum + i
-    print(sum)
+    i=i+1
+print(sum)
 
 #question17
 n = int(input("Enter n: "))
@@ -116,6 +117,7 @@ sum = 0
 while i <= n:
     if i % 2 == 0:
         sum = sum + i
+    i=i+1
 print( sum)
 
 #question18
@@ -249,7 +251,25 @@ while ope>0:
         print(number1+number2)
 
 
+num=int(input("Enter number :"))
+choice=int(input("Enter do you want check number => \n1.Even \n2.Odd \n3.Prime number \n==>:"))
+match choice:
+    case 1:
+        if num%2==0:
+            print("Even number")
+    case 2:
+        if num%2!=0:
+            print("Odd number")
+    case 3:
+        count=0
+        for j in range(1,num+1):
+            if num%j==0:
+                count+=1
+        if count==2:
+            print("number is prime")  
+        else:
+            print("number is not prime")    
+    case _:
+        print("Invalid choice")
 
     
-
-
