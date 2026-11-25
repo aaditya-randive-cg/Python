@@ -19,7 +19,8 @@
 # print(i)
 
 #5
-
+#scop means a veriable till we can access
+#variablelifetime means how long variable exist
 
 
 #6
@@ -95,4 +96,3 @@
 #15
 #it's already a keyword
 
-    
